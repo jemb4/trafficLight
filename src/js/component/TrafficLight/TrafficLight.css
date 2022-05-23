@@ -1,0 +1,52 @@
+
+#trafficLight{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#container-trafficLight{
+    background-color: black;
+    width: 50px;
+    height: 140px;
+    border-radius: 7%;
+}
+
+#trafficTop{
+    background-color: black;
+    display: flex;
+    height: 50px;
+    width: 5px;
+}
+
+#container-Light{
+    margin: 10px;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.red, 
+.green, 
+.orange{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.light{
+    box-shadow: 0px 0px 22px 15px rgba(255,254,107,0.67)
+}
