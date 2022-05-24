@@ -1,4 +1,12 @@
 
+body{
+    background-color: rgba(123, 128, 126, 0.726);
+}
+
+.hidden{
+    display: none !important;
+}
+
 #trafficLight{
     align-items: center;
     display: flex;
@@ -7,8 +15,9 @@
 
 #container-trafficLight{
     background-color: black;
-    width: 50px;
-    height: 140px;
+    border: gray solid 2px;
+    width: 90px;
+    height: 230px;
     border-radius: 7%;
 }
 
@@ -16,11 +25,11 @@
     background-color: black;
     display: flex;
     height: 50px;
-    width: 5px;
+    width: 20px;
 }
 
-#container-Light{
-    margin: 10px;
+.container-Light{
+    margin: 15px;
     align-items: center;
     display:flex;
     flex-direction: column;
@@ -31,8 +40,9 @@
 .green, 
 .orange{
     border-radius: 50%;
-    height: 40px;
-    width: 40px;
+    height: 60px;
+    width: 60px;
+    margin-top: 5px;
 }
 
 .red{
@@ -48,5 +58,54 @@
 }
 
 .light{
-    box-shadow: 0px 0px 22px 15px rgba(255,254,107,0.67)
+    box-shadow: 0px 0px 22px 25px rgba(255,254,107,0.67)
+}
+
+/* btn */
+.active {
+	box-shadow: 0px 11px 16px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:20px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	font-weight:bold;
+	padding:10px 40px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.active:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.active:active {
+	position:relative;
+	top:1px;
+}
+
+.stop {
+	box-shadow: 0px 11px 16px -7px #e67a73;
+	background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+	background-color:#942911;
+	border-radius:20px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	font-weight:bold;
+	padding:10px 40px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.stop:hover {
+	background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+	background-color:#bc3315;
+}
+.stop:active {
+	position:relative;
+	top:1px;
 }

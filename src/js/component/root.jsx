@@ -1,11 +1,12 @@
 import React from "react";
+import reactDOM from "react-dom";
 import TrafficLight from "./TrafficLight/TrafficLight.jsx";
 
 const Root = () => {
 	return (
-		<div>
+		<>
 			<TrafficLight />
-		</div>
+		</>
 	);
 };
 
